@@ -1,0 +1,25 @@
+{
+  "name": "proyectomantencion",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node scripts/check-syntax.mjs",
+    "mp:create-plan": "node scripts/create-mercadopago-plan.mjs",
+    "test": "node --test tests/*.test.js",
+    "ai:check": "node scripts/check-gemini.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.17"
+  }
+}
