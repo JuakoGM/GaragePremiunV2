@@ -1,4 +1,4 @@
-# Garage Premium Moderno - Hito 3
+# Garage Premium Moderno
 
 Un garage digital para guardar autos y motos y consultar orientación de mantenimiento con IA mediante un plan Premium.
 
